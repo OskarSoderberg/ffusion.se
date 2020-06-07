@@ -1,0 +1,291 @@
+/*
+================================================================================
+TABLE OF CONTENTS
+1. General
+  1.1 html
+  1.2 body
+  1.3 background color
+  1.4 buttons
+2. Header
+  2.1 logo
+3. Main
+  3.1 jumbotron
+  3.2 google maps
+  3.3 cards
+  3.4 other images
+  3.5 forms
+  3.6 headers
+  3.7 first page
+4. Footer
+  4.1 footer
+  4.2 social media icons
+================================================================================
+*/
+
+/*
+================================================================================
+1. General
+
+1.1 html
+================================================================================
+*/
+
+html {
+  position: relative;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+/*
+================================================================================
+1.2 body
+================================================================================
+*/
+
+body {
+  line-height: 1.5em;
+}
+
+.hr-light {
+  border-top:  1px solid rgba(255, 255, 255, 0.7);
+}
+
+.text-primary {
+  color: #ee6d3e !important;
+}
+
+.text-secondary {
+  color: #1a2b47 !important;
+}
+
+.text-note {
+  font-size: 10px;
+}
+
+/*
+================================================================================
+1.3 background color
+================================================================================
+*/
+
+.bg-dark {
+  background-color: #202020 !important;
+}
+
+.bg-image {
+  background-image: url("../images/blur_blue.jpg") !important;
+}
+
+.bg-primary {
+  background-color: #ee6d3e !important;#FF642B,
+}
+
+.bg-secondary {
+  background-color: #1a2b47 !important;
+}
+
+
+
+/*
+================================================================================
+1.4 buttons
+================================================================================
+*/
+
+.btn-primary {
+  background-color: #ee6d3e;
+  border-color: #ee6d3e;
+}
+.btn-primary:hover {
+  background-color: #a84300;
+  border-color: #a84300;
+}
+.btn-primary:active, .btn-primary:focus {
+  background-color: #662900 !important;
+  border-color: #662900 !important;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+}
+
+/*
+================================================================================
+2. Header
+
+2.1 logo
+================================================================================
+*/
+
+.logo {
+  max-height: 40px;
+  margin-right: 8px;
+  padding-bottom: 2px;
+}
+
+.after-nav {
+  padding-top: 4rem !important;
+}
+
+.langlogo {
+	height: 20px !important;
+	width: 20px !important;
+}
+
+/*
+================================================================================
+3. Main
+
+3.1 jumbotron
+================================================================================
+*/
+
+.jumbotron {
+  background-color: transparent;
+  border-radius: 0 !important;
+}
+
+.full-background {
+  background-size: cover;
+}
+
+/*
+================================================================================
+3.2 google maps
+================================================================================
+*/
+
+.gmaps {
+  padding: 10px;
+  height: auto;
+  width: 100%;
+}
+
+/*
+================================================================================
+3.3 card images
+================================================================================
+*/
+
+.card-img-top {
+  /*background-color: #ee6d3e;*/
+  padding: 4%;
+  width: 75%;
+  height: 30vw;
+  object-fit: contain;
+}
+
+@media only screen and (min-width: 600px) {
+  .card-img-top-md {
+    padding: 4%;
+    width: 75%;
+    height: 15vw;
+    object-fit: contain;
+  }
+}
+
+
+
+
+.card-size-third {
+  width: 1rem !important;
+}
+
+/*
+================================================================================
+3.4 other images
+================================================================================
+*/
+
+.size230 {
+  width: 230px;
+  height: 230px;
+}
+
+.tiny {
+  height: 3rem;
+  width: auto;
+}
+
+.fysiksektionen {
+  height: 1em;
+  margin-top: -12px;
+}
+
+/*
+================================================================================
+3.5 forms
+================================================================================
+*/
+
+.form-length {
+  width: 8em;
+}
+
+.form-orange {
+  background-color: #ee6d3e;
+  color: white;
+  border-color: #ee6d3e;
+}
+
+/*
+================================================================================
+3.6 headers
+================================================================================
+*/
+
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.in {
+  display: block !important;
+  align-items: center;
+}
+
+.size-25rem {
+  font-size: 2.5rem;
+}
+
+/*
+================================================================================
+3.7 first page
+================================================================================
+*/
+
+.font-size-img {
+  height: 1em;
+}
+
+/*
+================================================================================
+4. Footer
+
+4.1 footer
+================================================================================
+*/
+
+footer {
+	color: #ffffff !important;
+	bottom: 0;
+	width: 100%;
+}
+
+/*
+================================================================================
+4.2 social media icons
+================================================================================
+*/
+
+.fab {
+	height: 30px;
+	width: 30px;
+  font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 30px;
+  color: white;
+}
